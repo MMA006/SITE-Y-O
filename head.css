@@ -1,0 +1,121 @@
+
+body{
+    background: rgba(236, 130, 130, 0.836);
+    
+    font: 100% Tahoma, Geneva, sans-serif;
+    background-image: linear-gradient(-123deg, #eea09b 0%, #ecb7b7 20%, #e2aaaa 28%, #f5bfbf 61%, #e4bebe 100%);
+    
+}
+    ul{
+        background:#4b1111;/*добавляем эффект при наведении*/
+        list-style: none; /*убираем маркеры списка*/
+        background:#928bce; /*добавляем фон всему меню */
+      height: 80px; /*задаем высоту*/
+        padding-left: 0; /*убираем отступы*/
+        font-size: 18pt;
+        
+        
+    } 
+        
+      li {
+        color:rgb(56, 7, 7); /*меняем цвет ссылок*/
+       float:left; /*Размещаем список горизонтально для реализации меню*/
+        margin-right:40px; /*Добавляем отступ у пунктов меню*/
+      }
+
+      
+        li a  {
+         text-decoration: none; /*убираем подчеркивание текста ссылок*/
+        text-align: center;
+        padding: 15 35px;/*отступ от границы менюк*/
+          line-height: 75px;/*между пунктами меню расстояние*/
+        }
+
+        .item{
+          float:left ;
+          margin: 1px 9px 3px 0px;
+  border: 1px solid #969191;
+  padding: 6px;
+         /* margin:9px; /*делаем внешний отступ*/
+          display:inline;
+        }
+        
+        
+        p{
+          font-size: 20px;
+        }
+
+        .item p {	text-align: center;
+        }
+
+        .item{
+          max-width: 100px;
+        }
+        
+        .overlay{
+          display:none;
+          position: absolute;
+          font-style: italic;
+          font-size:small;
+          color:#4b1111;
+          text-align:left;
+        
+        }
+        a:hover .overlay{
+          display:inline-block;
+        }
+
+
+
+        footer{ /* Блок подвала */
+          height:80px; /* Высота блока подвала */
+          background-color: #06848d; /* Фон блока подвала */
+          margin-bottom: 10px; /* Отступ снизу */
+          border-radius: 5px; /* Закруглённые углы */
+          box-shadow: rgba(71, 15, 15, 0.5) 0px 1px 3px; /* Тень блока */
+        }
+        .clear{ /* Запрет наплывания. Устанавливается для того, чтобы блок контента, при заполнении текстом и изображениями не наплывал на подвал */
+          clear: both;
+        }
+         
+        
+        .fon{ /* Номер телефона */
+    margin-left: 0;
+    margin-right: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    float:right;
+    padding-bottom: 50px;
+    color:#4b1111;
+        }
+
+
+        .fax{ /* Номер факса */
+    font-size: 15px;
+    font-weight: bold;
+    float:right;
+    padding-bottom: 50px;
+    margin-right: 20px;
+    color:#4b1111;
+        }
+
+        .instagram{ 
+         
+          margin-left: 0;
+    margin-right: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    float:right;
+    color:#4b1111;
+    padding-bottom: 50px;}
+
+        .mail{ /* Адрес E-mail */
+          margin-left: 0;
+    margin-right: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    float:right;
+    padding-bottom: 50px;
+    color:#4b1111;
+        
+        }

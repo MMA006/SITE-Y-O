@@ -1,0 +1,72 @@
+ul{list-style: none; /*убираем маркеры списка*/}
+   
+    body {
+        background: rgba(113, 231, 176, 0.5);
+      
+    }
+    li{ font-size: 25px;
+        color:#4b1111;
+        font-style: italic;
+     font-weight: bold;
+     
+
+    }
+    p{
+        font-size: 18px;
+       text-align: left ;
+    }
+ img{
+    height:320px;
+    width: 450px;
+    border: 0,5px solid #928bce ; /* Рамка вокруг фотографии */
+    padding: 7px; /* Расстояние от картинки до рамки */
+    background: #928bce; /* Цвет фона */
+    margin-right: 17px; /* Отступ справа */
+    margin-bottom: 17px; /* Отступ снизу */
+    margin-left: 17px; /* Отступ слева */
+}
+.text2{ 
+    float:right ;
+
+}
+.photos{
+    height:200px;
+    width: 300px;
+    border: 0,5px solid #928bce ; /* Рамка вокруг фотографии */
+    padding: 7px; /* Расстояние от картинки до рамки */
+   
+    margin-right: 20px; /* Отступ справа */
+    margin-bottom: 30px; /* Отступ снизу */
+    margin-left: 100px; /* Отступ слева */
+}
+.overlay{
+    display:none;
+    position: absolute;
+    font-style: italic;
+    font-size:small;
+    color:#4b1111;
+    text-align:left;
+    background-color:#928bce
+  
+  }
+  a:hover .overlay{
+    display:inline-block;
+  }
+.text4{
+    height:200px;
+    width: 1000px;
+    margin-left: 300px; /* Отступ слева */
+}
+
+
+.dish{
+    float :left
+}
+.fact{
+    background:#928bce;
+}
+.img-l1{
+    height:20px;
+    width: 30px;
+
+}
